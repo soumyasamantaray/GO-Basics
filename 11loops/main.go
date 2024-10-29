@@ -23,7 +23,9 @@ func main() {
 	for _, day := range days {
 		fmt.Println("index is and value is", day)
 	}
-	//while loop
+
+	//###############################################
+	//Example of while loop
 
 	rougueValue := 1
 
@@ -45,4 +47,29 @@ func main() {
 soumya:
 	fmt.Println("leaning at learncodeonline.in")
 
+	//#########################################################################
+	//Example of while loop
+
+	number := 1
+
+	for number <= 10 {
+		fmt.Println(number)
+		number++
+	}
+
+	//#################################################
+	//Program to create a multiplication table of 5 using while loop
+
+	multiplier := 1
+
+	//// run while loop for 10 times
+	for multiplier <= 10 {
+
+		// find the product
+		product := 5 * multiplier
+
+		// print the multiplication table in format 5 * 1 = 5
+		fmt.Printf("5 * %d = %d\n", multiplier, product)
+		multiplier++
+	}
 }
